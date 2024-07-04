@@ -57,7 +57,7 @@ const Card = ({ type }) => {
       <Container type={type}>
         <Image
           type={type}
-          src="https://i9.ytimg.com/vi_webp/k3Vfj-e1Ma4/mqdefault.webp?v=6277c159&sqp=CIjm8JUG&rs=AOn4CLDeKmf_vlMC1q9RBEZu-XQApzm6sA"
+          src="C:\Users\User\Desktop\F\PetExpoProject\Pet-Expo-Project\frontend\public\expoPhotos\poci.jpg"
         />
         <Details type={type}>
           <ChannelImage
@@ -66,7 +66,7 @@ const Card = ({ type }) => {
           />
           <Texts>
             <Title>Test Video</Title>
-            <ChannelName>Lama Dev</ChannelName>
+            <ChannelName>Fiori</ChannelName>
             <Info>660,908 views • 1 day ago</Info>
           </Texts>
         </Details>
