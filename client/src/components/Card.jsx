@@ -69,7 +69,11 @@ const Card = ({ type, video }) => {
       <Container type={type}>
         <Image
           type={type}
+<<<<<<< HEAD
           src={video.imgUrl}
+=======
+          src="C:\Users\User\Desktop\F\PetExpoProject\Pet-Expo-Project\frontend\public\expoPhotos\poci.jpg"
+>>>>>>> b7a3515420fbdfc86b9579b0a789b0ef43cca2fb
         />
         <Details type={type}>
           <ChannelImage
@@ -77,9 +81,15 @@ const Card = ({ type, video }) => {
             src={channel.img}
           />
           <Texts>
+<<<<<<< HEAD
             <Title>{video.title}</Title>
             <ChannelName>{channel.name}</ChannelName>
             <Info>{video.views} views • {format(video.createdAt)}</Info>
+=======
+            <Title>Test Video</Title>
+            <ChannelName>Fiori</ChannelName>
+            <Info>660,908 views • 1 day ago</Info>
+>>>>>>> b7a3515420fbdfc86b9579b0a789b0ef43cca2fb
           </Texts>
         </Details>
       </Container>
